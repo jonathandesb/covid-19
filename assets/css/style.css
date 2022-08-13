@@ -34,8 +34,7 @@ body {
     margin-bottom: -20px;
   }
 
- 
-  
+
   
   #survey-form {
     width: 60vw;
@@ -60,7 +59,6 @@ body {
   }
   
   input,
-  textarea,
   select {
     margin: 9px 0 0 0;
       width: 100%;
@@ -100,6 +98,6 @@ body {
   
   
   
-  footer:hover {
+  footer a:hover {
     text-decoration: underline;
   }
