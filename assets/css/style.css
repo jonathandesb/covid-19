@@ -1,0 +1,105 @@
+
+
+body {
+    width: 100%;
+    height: 100vh;
+    margin: 0;
+    background-color: white;
+      color: black;
+    font-family: Tahoma;
+      font-size: 16px;
+  }
+  
+  header {
+    background-color: #008DC9;
+    color: white;
+    padding: 20px;
+    padding-bottom: 60px;
+  }
+  
+ .inline {
+  width: unset;
+  margin: 0 0.5em 0 0;
+  vertical-align: middle;
+
+}
+
+  h1, p {
+    margin: 1em auto;
+    text-align: center;
+  }
+  
+  #description {
+    font-size: 40px;
+    margin-bottom: -20px;
+  }
+
+ 
+  
+  
+  #survey-form {
+    width: 60vw;
+      max-width: 500px;
+      min-width: 300px;
+      margin: 0 auto;
+    padding-bottom: 2em;
+  }
+  
+  fieldset {
+    border: none;
+    padding: 2rem 0;
+    border-bottom: 5px solid #008DC9;
+  }
+  fieldset:last-of-type {
+    border-bottom: none;
+  }
+  
+  label {
+    display: block;
+      margin: 0.6rem 0;
+  }
+  
+  input,
+  textarea,
+  select {
+    margin: 9px 0 0 0;
+      width: 100%;
+    min-height: 36px;
+  }
+  
+  
+  
+  
+  
+  input[type="submit"] {
+    display: block;
+    width: 60%;
+    font-weight: bolder;
+    margin: 1em auto;
+    height: 2em;
+    font-size: 1.1rem;
+    background-color: #008DC9;
+    border-color: white;
+    min-width: 300px;
+    color: white;
+  }
+  
+  footer {
+    text-decoration: none;
+    background-color: #008DC9;
+    text-align: center;
+    color: white;
+    padding: 1px;
+  }
+  
+  footer a {
+    color: white;
+    text-decoration:none;
+    font-weight: bolder;
+  }
+  
+  
+  
+  footer:hover {
+    text-decoration: underline;
+  }

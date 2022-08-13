@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <title>Formulário COVID-19</title>
+ <link rel="stylesheet" href="assets/css/style.css">
+ </head>
+ <html>
+<body>
+  <header>
+    <h1 id="title">Formulário de Registro da Vacinação contra a COVID-19</h1>
+    <p id="description">Formulário <strong>COVID-19</strong></p>
+  </header>
+    <form id="survey-form">
+      <fieldset>
+          <label id="name-label">Nome: <input id="nome" type="text" placeholder="Nome" required/></label>
+
+          <label id="sobrenome-label">Sobrenome: <input  id="sobrenome" type="text" placeholder="Sobrenome" required/></label>
+
+          <label id="cpf-label">Número de Identificação: <input id="cpf" type="text" placeholder="CPF" required/></label>
+
+          <label id="email-label">Email: <input id="email" type="email" placeholder="E-mail" required/></label>
+
+          <label id="number-label">Idade: 
+          <input id="number" type="number" placeholder="Idade" min="5" max="120" required></label>
+
+           <label id="data-label">Data de Nascimento: <input id="date" type="date" placeholder="DD-MM-YYYY" required/></label>
+
+          <label id="telefone-label">Telefone: <input id="telefone" type="text" placeholder="(00) 0000-00000" min="10" max="11" required/></label>
+
+          <label id="endereco-label">Endereço: <input id="endereco" type="text" placeholder="Endereço" required/></label>
+
+          <label id="cep-label">CEP: <input id="cep" type="text" placeholder="CEP" required/></label>
+
+          <label id="complemento-label">Complemento: <input  type="text" placeholder="Complemento(opcional)"/></label>
+
+          <label id="cidade-label">Cidade: <input  type="text" placeholder="Cidade" required/></label>
+
+          <label id="estado-label">Estado: <input  type="text" placeholder="Estado" required/></label>
+
+            <label> Gênero:
+            <select id="dropdown">
+                <option value="fem"> Feminino</option>
+                <option value="masc"> Masculino</option>
+            </select>
+          </label>
+      </fieldset>
+      <fieldset>
+          <labe class="saude">
+            <h3>Você possui plano de saúde?</h3>
+                <input class="inline" type="radio" name="saude" value="saude-sim"/> Sim
+                <input class="inline" type="radio" name="saude" value="saude-nao"/> Não
+          </label>
+      </fieldset>
+      <fieldset>
+              <h3>É portador de alguma comorbidade considerada como fator de risco, no contexto da COVID-19?</h3>
+                <input class="inline" type="radio" name="comorbidade" value="nao"/> Não
+                <input class="inline" type="radio" name="comorbidade" value="diabetes"/> Diabetes
+                <input class="inline" type="radio" name="comorbidade" value="hiper"/> Hipertensão arterial
+                <input class="inline" type="radio" name="comorbidade" value="asma"/> Asma
+                <input class="inline" type="radio" name="comorbidade" value="cardio"/> Cardiopatias
+                <input class="inline" type="radio" name="comorbidade" value="outros"/> Outros 
+      </fieldset>
+      <fieldset>
+        <label>
+            <h3>Convive diariamente com algum parente que se enquadra em algum grupo de risco, no contexto da COVID-19?</h3>
+              <input class="inline" type="radio" name="diariamente" value="sim"/> Sim
+              <input class="inline" type="radio" name="diariamente" value="nao"/> Não
+        </label>
+      </fieldset>
+      <fieldset>
+          <label type="required">
+            <h3>Apresenta algum dos sintomas associados a COVID-19?</h3>
+              <input class="inline" type="checkbox" value="febe"/> Febre
+              <input class="inline" type="checkbox" value="falta-de-ar"/> Falta de ar
+              <input class="inline" type="checkbox" value="perda-paladar"/> Perda de paladar ou olfato
+              <input class="inline" type="checkbox" value="dor-cabeca"/> Dor de cabeça
+              <input class="inline" type="checkbox" value="tosse"/> Tosse
+          </label>
+      </fieldset>
+
+      </textarea>
+    <textarea name="bio" rows="3" cols="30" placeholder=""></textarea>
+      </textarea>
+      <input type="submit" value="submit" id="submit"/>
+    </form>
+    <footer>
+       <p>Site criado por <a href="https://github.com/jonathandsb20" target="_blank">Jonathan de Sousa</a></p>
+    </footer>
+</body>
+</html>
+
+
+
